@@ -4,7 +4,9 @@
     box-sizing: border-box;
     font-family: Arial, sans-serif;
 }
-
+section{
+    display: block;
+}
 body {
     display: flex;
     justify-content: center;
@@ -12,7 +14,20 @@ body {
     min-height: 100vh;
     background: linear-gradient(to top, #0A0A23, #000000);
 }
-
+header{
+    color: #fff;
+}
+footer{
+    color:#fff;
+    margin-top: 20px;
+}
+.titulos{
+    font-family: "Poppins";
+    font-size: 20px;
+    font-weight: bolder;
+    text-align: center;
+    margin-bottom: 20px;
+}
 #datos {
     margin-top: 20px;
     color:#fff;
